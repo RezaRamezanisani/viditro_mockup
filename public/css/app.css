@@ -1,0 +1,39 @@
+@font-face {
+    src:url('../iransans/5.5/IRANSansWeb_Medium.eot');
+    font-family: iransans;
+}
+*{
+    font-family: iransans;
+}
+/*alert delete*/
+.alert__delete{
+    animation: show__alert .4s linear;
+    -webkit-transform: translate(50%,-50%) ;
+    -moz-transform: translate(50%,-50%) ;
+    -ms-transform: translate(50%,-50%) ;
+    -o-transform:translate(50%,-50%)  ;
+    transform: translate(50%,-50%) ;
+}
+/*alert delete*/
+
+
+
+
+/*animation*/
+@keyframes show__alert {
+    0%{
+        -webkit-transform: translate(50%,-50%) scale(0);
+        -moz-transform: translate(50%,-50%) scale(0);
+        -ms-transform: translate(50%,-50%) scale(0);
+        -o-transform:translate(50%,-50%) scale(0) ;
+        transform: translate(50%,-50%) scale(0);
+    }
+    100%{
+        -webkit-transform: translate(50%,-50%) scale(1);
+        -moz-transform: translate(50%,-50%) scale(1);
+        -ms-transform: translate(50%,-50%) scale(1);
+        -o-transform: translate(50%,-50%) scale(1);
+        transform: translate(50%,-50%) scale(1);
+    }
+}
+/*/animation*/
